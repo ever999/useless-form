@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+.fr {
+    width: 340px;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 0.4rem;
+    box-shadow: 0px 12px 24px -17px rgba(66, 68, 90, 1);
+}
+
+.fr > label, select, input{
+    display: block;
+}
+.fr div {
+    margin: 15px;
+}
+div > label {
+    line-height: 2;
+    font-weight: bold;
+}
+div > select, input {
+    width: 100%;
+}
+.formLable{
+    width: 100%;
+    height: 20px;
+    display: block;
+    padding: 10px 0px;
+    background-color: silver;
+    overflow: hidden;
+    border-bottom: 1px solid;
+    border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+.formLable span {
+    padding: 0px 10px;
+}
+
+.ansverHolder {
+    margin: 0 !important; 
+    padding: 0;
+}
